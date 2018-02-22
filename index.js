@@ -6,13 +6,16 @@ function whisper(string) {
   return string.toLowerCase();
 }
 
-function logShout(string){
-  if (logShout(string).toUpperCase() === shout(string)); {
-  console.log(string.toUpperCase());
-  }
-}
+function sayHiToGrandma(string) {
+   if (string === )
+   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
+    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+  })
 
-logShout("hello!");
+  it('returns "YES INDEED!" if `string` is uppercase', function() {
+    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
+  })
+}
 
 
 
