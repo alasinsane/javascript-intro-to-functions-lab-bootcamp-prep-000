@@ -1,11 +1,14 @@
 function shout(string) {
-  var logShout = "HELLO";
-  if (logShout === string) {
   return string.toUpperCase();
-  }
 }
 
 function whisper(string) {
   return string.toLowerCase();
 }
+
+function logShout(string){
+  if string.toUpperCase === shout(string);
+  console.log(string.toUpperCase());
+}
+
 
