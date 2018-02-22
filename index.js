@@ -7,14 +7,11 @@ function whisper(string) {
 }
 
 function sayHiToGrandma(string) {
-   if (string === )
-   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
-  })
-
-  it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
-  })
+   if (string === string.toLowerCase()) {
+    return "I can't hear you!"
+  } else if (string === string.toUpperCase()) {
+    return "YES INDEED!"
+  }
 }
 
 
