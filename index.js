@@ -7,8 +7,12 @@ function whisper(string) {
 }
 
 function logShout(string){
-  if string.toUpperCase === shout(string);
+  if (logShout(string).toUpperCase() === shout(string)); {
   console.log(string.toUpperCase());
+  }
 }
+
+logShout()
+
 
 
