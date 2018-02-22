@@ -12,7 +12,7 @@ function logShout(string){
   }
 }
 
-logShout()
+logShout("hello!");
 
 
 
